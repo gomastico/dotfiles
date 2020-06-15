@@ -1,0 +1,8 @@
+JAVA_8_HOME=/opt/java/jdk1.8.0_221
+JAVA_11_HOME=/opt/java/jdk-11.0.4
+
+JAVA_HOME=$JAVA_11_HOME
+
+PATH=$PATH:$JAVA_HOME/bin
+export JAVA_HOME
+export PATH
